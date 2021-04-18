@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TextFilesVideo2019</string>
+    <string name="enter_surname">Enter surname</string>
+    <string name="enter_name">Enter name</string>
+    <string name="save_persone_to_file">SAVE PERSON TO FILE</string>
+    <string name="add_persone">ADD PERSON</string>
+</resources>
