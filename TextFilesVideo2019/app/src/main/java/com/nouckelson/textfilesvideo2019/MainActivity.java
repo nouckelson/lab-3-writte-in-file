@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         data=new ArrayList<Person>();
         add_person.setOnClickListener(this);
         save_person.setOnClickListener(this);
+        readFile()
     }
 
     @Override
@@ -99,6 +100,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 text.append(line);
                 text.append('\n');
                 showfile.setText(text.toString());
+                data.add(new Person(text.toString(),""));
             }
             br.close();
         } catch (IOException e) { }
